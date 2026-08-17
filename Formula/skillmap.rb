@@ -2,28 +2,28 @@
 class Skillmap < Formula
   desc "Capability differ for AI agent skills"
   homepage "https://github.com/TakasiVenkataSandeep-08/agentskillmap"
-  version "0.5.4"
+  version "0.5.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/TakasiVenkataSandeep-08/agentskillmap/releases/download/v0.5.4/skillmap-darwin-arm64.tar.gz"
-      sha256 "0ef442cacc0a7af413d7499ec277aa1ac5b0f5ef0c91d24b70142b335841c7a5"
+      url "https://github.com/TakasiVenkataSandeep-08/agentskillmap/releases/download/v0.5.5/skillmap-darwin-arm64.tar.gz"
+      sha256 "f04c81272cc7d5f29bdc4e0b49e3ce7eae0686ee9065757b128d1072bedd13f3"
     end
     on_intel do
-      url "https://github.com/TakasiVenkataSandeep-08/agentskillmap/releases/download/v0.5.4/skillmap-darwin-x64.tar.gz"
-      sha256 "e10f2e4ecd833cfc9f9921923449086342e717c584b255334bd3e8cdcf5c6847"
+      url "https://github.com/TakasiVenkataSandeep-08/agentskillmap/releases/download/v0.5.5/skillmap-darwin-x64.tar.gz"
+      sha256 "d3cf1e6553d956b7e54658c475bd949c67f965e1ba42c5d219fee9037634987f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/TakasiVenkataSandeep-08/agentskillmap/releases/download/v0.5.4/skillmap-linux-arm64.tar.gz"
-      sha256 "1c2dbc8fc6c046567b466894e4c33ff4d4f304957fccb55461ce29a81a3d385b"
+      url "https://github.com/TakasiVenkataSandeep-08/agentskillmap/releases/download/v0.5.5/skillmap-linux-arm64.tar.gz"
+      sha256 "a2541cdcbc833a80a99a1f6bb4f57024048aa305702b8b4526fde44c3286785b"
     end
     on_intel do
-      url "https://github.com/TakasiVenkataSandeep-08/agentskillmap/releases/download/v0.5.4/skillmap-linux-x64.tar.gz"
-      sha256 "f564e70e08612633c45aa10678ad4ec677c5b25b1aea3d65ca673a19cff46e63"
+      url "https://github.com/TakasiVenkataSandeep-08/agentskillmap/releases/download/v0.5.5/skillmap-linux-x64.tar.gz"
+      sha256 "60f9f926f26af0ae8db14d982fbdacc8ed04c01d43f540c85ef1236cc83b2a27"
     end
   end
 
